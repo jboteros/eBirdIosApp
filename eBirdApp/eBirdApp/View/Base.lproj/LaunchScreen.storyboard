@@ -17,17 +17,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="eBirdApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mA-jd-fP4">
-                                <rect key="frame" x="122" y="314" width="131.5" height="39.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bgHome" translatesAutoresizingMaskIntoConstraints="NO" id="bjm-o7-VsN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoApp" translatesAutoresizingMaskIntoConstraints="NO" id="mtu-gy-UIR">
+                                <rect key="frame" x="77" y="213.5" width="220" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="5Rj-IC-l9W"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subLogo" translatesAutoresizingMaskIntoConstraints="NO" id="H9y-OW-N8q">
+                                <rect key="frame" x="37.5" y="363.5" width="300" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="UGq-tL-gMN"/>
+                                    <constraint firstAttribute="width" constant="300" id="oR6-1h-lJT"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="2mA-jd-fP4" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="52T-vt-gIZ"/>
-                            <constraint firstItem="2mA-jd-fP4" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZSf-Er-4fq"/>
+                            <constraint firstItem="mtu-gy-UIR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8by-mj-ZOn"/>
+                            <constraint firstItem="mtu-gy-UIR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-60" id="AOk-aF-x2c"/>
+                            <constraint firstItem="H9y-OW-N8q" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JRt-57-gia"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bjm-o7-VsN" secondAttribute="trailing" id="OUD-up-ZWY"/>
+                            <constraint firstItem="bjm-o7-VsN" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="W2H-gT-M2D"/>
+                            <constraint firstItem="H9y-OW-N8q" firstAttribute="top" secondItem="mtu-gy-UIR" secondAttribute="bottom" constant="30" id="fGM-bg-R22"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bjm-o7-VsN" secondAttribute="bottom" id="lVz-Y6-U1w"/>
+                            <constraint firstItem="bjm-o7-VsN" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="whE-zA-nkg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,4 +53,9 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bgHome" width="932" height="1656"/>
+        <image name="logoApp" width="220" height="220"/>
+        <image name="subLogo" width="507" height="102"/>
+    </resources>
 </document>
