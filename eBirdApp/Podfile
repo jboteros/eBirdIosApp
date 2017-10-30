@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+#platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'eBirdApp' do
+
+    use_frameworks!
+
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'NVActivityIndicatorView'
+#pod 'AEAccordion'
+
+
+  target 'eBirdAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

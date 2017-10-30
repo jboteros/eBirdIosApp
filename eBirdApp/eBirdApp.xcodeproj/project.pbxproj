@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07EAEE9E8B760D90B2C73F60 /* Pods_eBirdAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD46C6D6DD59D2A307C9C23D /* Pods_eBirdAppTests.framework */; };
+		9F5556A61FA6D6370080BB59 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5556A51FA6D6370080BB59 /* AddItemViewController.swift */; };
+		9F67D6841FA405F900296B0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67D6831FA405F900296B0D /* AppDelegate.swift */; };
+		9F67D6861FA405FA00296B0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67D6851FA405FA00296B0D /* ViewController.swift */; };
+		9F67D6891FA405FA00296B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F67D6871FA405FA00296B0D /* Main.storyboard */; };
+		9F67D68B1FA405FA00296B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F67D68A1FA405FA00296B0D /* Assets.xcassets */; };
+		9F67D68E1FA405FA00296B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F67D68C1FA405FA00296B0D /* LaunchScreen.storyboard */; };
+		9F67D6991FA405FA00296B0D /* eBirdAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67D6981FA405FA00296B0D /* eBirdAppTests.swift */; };
+		9F67D6A41FA405FA00296B0D /* eBirdAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67D6A31FA405FA00296B0D /* eBirdAppUITests.swift */; };
+		9F9F627F1FA67DE800435C49 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F627E1FA67DE800435C49 /* DetailViewController.swift */; };
+		9FB5DD691FA408BF0071CD23 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB5DD681FA408BF0071CD23 /* AppController.swift */; };
+		9FB5DD6B1FA40B570071CD23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB5DD6A1FA40B570071CD23 /* Default-568h@2x.png */; };
+		9FC730321FA44BC500B546D0 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC730311FA44BC500B546D0 /* Globals.swift */; };
+		9FC730361FA4523500B546D0 /* CatalogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC730341FA4523500B546D0 /* CatalogTableViewCell.swift */; };
+		9FC730371FA4523500B546D0 /* CatalogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FC730351FA4523500B546D0 /* CatalogTableViewCell.xib */; };
+		9FC730391FA4554F00B546D0 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC730381FA4554F00B546D0 /* CatalogViewController.swift */; };
+		C9E65737C275D8D8D2E46226 /* Pods_eBirdApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C5223B1311C4E3F557351F /* Pods_eBirdApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F67D6951FA405FA00296B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F67D6781FA405F900296B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F67D67F1FA405F900296B0D;
+			remoteInfo = eBirdApp;
+		};
+		9F67D6A01FA405FA00296B0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F67D6781FA405F900296B0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F67D67F1FA405F900296B0D;
+			remoteInfo = eBirdApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CE9400FEC7D1FA9E3BC6759 /* Pods-eBirdAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBirdAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eBirdAppTests/Pods-eBirdAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E817B810521A4CBD024E85D /* Pods-eBirdApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBirdApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eBirdApp/Pods-eBirdApp.debug.xcconfig"; sourceTree = "<group>"; };
+		31CC3F97B24E61B139F02268 /* Pods-eBirdApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBirdApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-eBirdApp/Pods-eBirdApp.release.xcconfig"; sourceTree = "<group>"; };
+		41C5223B1311C4E3F557351F /* Pods_eBirdApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eBirdApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830D47317F583406B24A6C85 /* Pods-eBirdAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eBirdAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-eBirdAppTests/Pods-eBirdAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F5556A51FA6D6370080BB59 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		9F67D6801FA405F900296B0D /* eBirdApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eBirdApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F67D6831FA405F900296B0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F67D6851FA405FA00296B0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F67D6881FA405FA00296B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F67D68A1FA405FA00296B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F67D68D1FA405FA00296B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F67D68F1FA405FA00296B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F67D6941FA405FA00296B0D /* eBirdAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBirdAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F67D6981FA405FA00296B0D /* eBirdAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBirdAppTests.swift; sourceTree = "<group>"; };
+		9F67D69A1FA405FA00296B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F67D69F1FA405FA00296B0D /* eBirdAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eBirdAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F67D6A31FA405FA00296B0D /* eBirdAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eBirdAppUITests.swift; sourceTree = "<group>"; };
+		9F67D6A51FA405FA00296B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9F627E1FA67DE800435C49 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9FB5DD681FA408BF0071CD23 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		9FB5DD6A1FA40B570071CD23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9FC730311FA44BC500B546D0 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		9FC730341FA4523500B546D0 /* CatalogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogTableViewCell.swift; sourceTree = "<group>"; };
+		9FC730351FA4523500B546D0 /* CatalogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CatalogTableViewCell.xib; sourceTree = "<group>"; };
+		9FC730381FA4554F00B546D0 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		FD46C6D6DD59D2A307C9C23D /* Pods_eBirdAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eBirdAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F67D67D1FA405F900296B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E65737C275D8D8D2E46226 /* Pods_eBirdApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F67D6911FA405FA00296B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EAEE9E8B760D90B2C73F60 /* Pods_eBirdAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F67D69C1FA405FA00296B0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F67D6771FA405F900296B0D = {
+			isa = PBXGroup;
+			children = (
+				9FB5DD6A1FA40B570071CD23 /* Default-568h@2x.png */,
+				9F67D6821FA405F900296B0D /* eBirdApp */,
+				9F67D6971FA405FA00296B0D /* eBirdAppTests */,
+				9F67D6A21FA405FA00296B0D /* eBirdAppUITests */,
+				9F67D6811FA405F900296B0D /* Products */,
+				B9A6608440BB18B6A29B2FFD /* Pods */,
+				A135F450DD6195B88001271E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F67D6811FA405F900296B0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F67D6801FA405F900296B0D /* eBirdApp.app */,
+				9F67D6941FA405FA00296B0D /* eBirdAppTests.xctest */,
+				9F67D69F1FA405FA00296B0D /* eBirdAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F67D6821FA405F900296B0D /* eBirdApp */ = {
+			isa = PBXGroup;
+			children = (
+				9F67D68F1FA405FA00296B0D /* Info.plist */,
+				9FB5DD651FA408650071CD23 /* Model */,
+				9FB5DD671FA4088C0071CD23 /* View */,
+				9FB5DD661FA408720071CD23 /* Controller */,
+				9FB5DD641FA408520071CD23 /* Others */,
+			);
+			path = eBirdApp;
+			sourceTree = "<group>";
+		};
+		9F67D6971FA405FA00296B0D /* eBirdAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F67D6981FA405FA00296B0D /* eBirdAppTests.swift */,
+				9F67D69A1FA405FA00296B0D /* Info.plist */,
+			);
+			path = eBirdAppTests;
+			sourceTree = "<group>";
+		};
+		9F67D6A21FA405FA00296B0D /* eBirdAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F67D6A31FA405FA00296B0D /* eBirdAppUITests.swift */,
+				9F67D6A51FA405FA00296B0D /* Info.plist */,
+			);
+			path = eBirdAppUITests;
+			sourceTree = "<group>";
+		};
+		9FB5DD641FA408520071CD23 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9F67D6831FA405F900296B0D /* AppDelegate.swift */,
+				9F67D6851FA405FA00296B0D /* ViewController.swift */,
+				9F67D68A1FA405FA00296B0D /* Assets.xcassets */,
+				9FC730311FA44BC500B546D0 /* Globals.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		9FB5DD651FA408650071CD23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FB5DD661FA408720071CD23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9FB5DD681FA408BF0071CD23 /* AppController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9FB5DD671FA4088C0071CD23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9FC730331FA4520E00B546D0 /* CatalogContainer */,
+				9F67D6871FA405FA00296B0D /* Main.storyboard */,
+				9F67D68C1FA405FA00296B0D /* LaunchScreen.storyboard */,
+				9FC730381FA4554F00B546D0 /* CatalogViewController.swift */,
+				9F9F627E1FA67DE800435C49 /* DetailViewController.swift */,
+				9F5556A51FA6D6370080BB59 /* AddItemViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9FC730331FA4520E00B546D0 /* CatalogContainer */ = {
+			isa = PBXGroup;
+			children = (
+				9FC730341FA4523500B546D0 /* CatalogTableViewCell.swift */,
+				9FC730351FA4523500B546D0 /* CatalogTableViewCell.xib */,
+			);
+			path = CatalogContainer;
+			sourceTree = "<group>";
+		};
+		A135F450DD6195B88001271E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C5223B1311C4E3F557351F /* Pods_eBirdApp.framework */,
+				FD46C6D6DD59D2A307C9C23D /* Pods_eBirdAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9A6608440BB18B6A29B2FFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E817B810521A4CBD024E85D /* Pods-eBirdApp.debug.xcconfig */,
+				31CC3F97B24E61B139F02268 /* Pods-eBirdApp.release.xcconfig */,
+				0CE9400FEC7D1FA9E3BC6759 /* Pods-eBirdAppTests.debug.xcconfig */,
+				830D47317F583406B24A6C85 /* Pods-eBirdAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F67D67F1FA405F900296B0D /* eBirdApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F67D6A81FA405FA00296B0D /* Build configuration list for PBXNativeTarget "eBirdApp" */;
+			buildPhases = (
+				1CF57CE516DD61C9B0092303 /* [CP] Check Pods Manifest.lock */,
+				9F67D67C1FA405F900296B0D /* Sources */,
+				9F67D67D1FA405F900296B0D /* Frameworks */,
+				9F67D67E1FA405F900296B0D /* Resources */,
+				C191AEE85700BBCE4FAB64C4 /* [CP] Embed Pods Frameworks */,
+				0732F4AD63E54CE81201DB07 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eBirdApp;
+			productName = eBirdApp;
+			productReference = 9F67D6801FA405F900296B0D /* eBirdApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F67D6931FA405FA00296B0D /* eBirdAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F67D6AB1FA405FA00296B0D /* Build configuration list for PBXNativeTarget "eBirdAppTests" */;
+			buildPhases = (
+				ABB2BA239BFC578FD63EAE21 /* [CP] Check Pods Manifest.lock */,
+				9F67D6901FA405FA00296B0D /* Sources */,
+				9F67D6911FA405FA00296B0D /* Frameworks */,
+				9F67D6921FA405FA00296B0D /* Resources */,
+				F43A15A9A5CBACBA44F4A215 /* [CP] Embed Pods Frameworks */,
+				6F791F662D5DF94F71779DBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F67D6961FA405FA00296B0D /* PBXTargetDependency */,
+			);
+			name = eBirdAppTests;
+			productName = eBirdAppTests;
+			productReference = 9F67D6941FA405FA00296B0D /* eBirdAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F67D69E1FA405FA00296B0D /* eBirdAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F67D6AE1FA405FA00296B0D /* Build configuration list for PBXNativeTarget "eBirdAppUITests" */;
+			buildPhases = (
+				9F67D69B1FA405FA00296B0D /* Sources */,
+				9F67D69C1FA405FA00296B0D /* Frameworks */,
+				9F67D69D1FA405FA00296B0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F67D6A11FA405FA00296B0D /* PBXTargetDependency */,
+			);
+			name = eBirdAppUITests;
+			productName = eBirdAppUITests;
+			productReference = 9F67D69F1FA405FA00296B0D /* eBirdAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F67D6781FA405F900296B0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Johnatan Botero";
+				TargetAttributes = {
+					9F67D67F1FA405F900296B0D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					9F67D6931FA405FA00296B0D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F67D67F1FA405F900296B0D;
+					};
+					9F67D69E1FA405FA00296B0D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F67D67F1FA405F900296B0D;
+					};
+				};
+			};
+			buildConfigurationList = 9F67D67B1FA405F900296B0D /* Build configuration list for PBXProject "eBirdApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F67D6771FA405F900296B0D;
+			productRefGroup = 9F67D6811FA405F900296B0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F67D67F1FA405F900296B0D /* eBirdApp */,
+				9F67D6931FA405FA00296B0D /* eBirdAppTests */,
+				9F67D69E1FA405FA00296B0D /* eBirdAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F67D67E1FA405F900296B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC730371FA4523500B546D0 /* CatalogTableViewCell.xib in Resources */,
+				9F67D68E1FA405FA00296B0D /* LaunchScreen.storyboard in Resources */,
+				9FB5DD6B1FA40B570071CD23 /* Default-568h@2x.png in Resources */,
+				9F67D68B1FA405FA00296B0D /* Assets.xcassets in Resources */,
+				9F67D6891FA405FA00296B0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F67D6921FA405FA00296B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F67D69D1FA405FA00296B0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0732F4AD63E54CE81201DB07 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eBirdApp/Pods-eBirdApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CF57CE516DD61C9B0092303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F791F662D5DF94F71779DBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eBirdAppTests/Pods-eBirdAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB2BA239BFC578FD63EAE21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C191AEE85700BBCE4FAB64C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eBirdApp/Pods-eBirdApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43A15A9A5CBACBA44F4A215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eBirdAppTests/Pods-eBirdAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F67D67C1FA405F900296B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC730391FA4554F00B546D0 /* CatalogViewController.swift in Sources */,
+				9FC730321FA44BC500B546D0 /* Globals.swift in Sources */,
+				9F67D6861FA405FA00296B0D /* ViewController.swift in Sources */,
+				9F67D6841FA405F900296B0D /* AppDelegate.swift in Sources */,
+				9FB5DD691FA408BF0071CD23 /* AppController.swift in Sources */,
+				9F5556A61FA6D6370080BB59 /* AddItemViewController.swift in Sources */,
+				9FC730361FA4523500B546D0 /* CatalogTableViewCell.swift in Sources */,
+				9F9F627F1FA67DE800435C49 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F67D6901FA405FA00296B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F67D6991FA405FA00296B0D /* eBirdAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F67D69B1FA405FA00296B0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F67D6A41FA405FA00296B0D /* eBirdAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F67D6961FA405FA00296B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F67D67F1FA405F900296B0D /* eBirdApp */;
+			targetProxy = 9F67D6951FA405FA00296B0D /* PBXContainerItemProxy */;
+		};
+		9F67D6A11FA405FA00296B0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F67D67F1FA405F900296B0D /* eBirdApp */;
+			targetProxy = 9F67D6A01FA405FA00296B0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F67D6871FA405FA00296B0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F67D6881FA405FA00296B0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F67D68C1FA405FA00296B0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F67D68D1FA405FA00296B0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F67D6A61FA405FA00296B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F67D6A71FA405FA00296B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F67D6A91FA405FA00296B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E817B810521A4CBD024E85D /* Pods-eBirdApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P59ZNH6U6;
+				INFOPLIST_FILE = eBirdApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbotero.eBirdApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F67D6AA1FA405FA00296B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CC3F97B24E61B139F02268 /* Pods-eBirdApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P59ZNH6U6;
+				INFOPLIST_FILE = eBirdApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbotero.eBirdApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F67D6AC1FA405FA00296B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE9400FEC7D1FA9E3BC6759 /* Pods-eBirdAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P59ZNH6U6;
+				INFOPLIST_FILE = eBirdAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbotero.eBirdAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBirdApp.app/eBirdApp";
+			};
+			name = Debug;
+		};
+		9F67D6AD1FA405FA00296B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830D47317F583406B24A6C85 /* Pods-eBirdAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P59ZNH6U6;
+				INFOPLIST_FILE = eBirdAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbotero.eBirdAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eBirdApp.app/eBirdApp";
+			};
+			name = Release;
+		};
+		9F67D6AF1FA405FA00296B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P59ZNH6U6;
+				INFOPLIST_FILE = eBirdAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbotero.eBirdAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eBirdApp;
+			};
+			name = Debug;
+		};
+		9F67D6B01FA405FA00296B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7P59ZNH6U6;
+				INFOPLIST_FILE = eBirdAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jbotero.eBirdAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eBirdApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F67D67B1FA405F900296B0D /* Build configuration list for PBXProject "eBirdApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F67D6A61FA405FA00296B0D /* Debug */,
+				9F67D6A71FA405FA00296B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F67D6A81FA405FA00296B0D /* Build configuration list for PBXNativeTarget "eBirdApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F67D6A91FA405FA00296B0D /* Debug */,
+				9F67D6AA1FA405FA00296B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F67D6AB1FA405FA00296B0D /* Build configuration list for PBXNativeTarget "eBirdAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F67D6AC1FA405FA00296B0D /* Debug */,
+				9F67D6AD1FA405FA00296B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F67D6AE1FA405FA00296B0D /* Build configuration list for PBXNativeTarget "eBirdAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F67D6AF1FA405FA00296B0D /* Debug */,
+				9F67D6B01FA405FA00296B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F67D6781FA405F900296B0D /* Project object */;
+}
